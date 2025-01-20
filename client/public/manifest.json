@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "SourceFinder",
+  "description": "Get summaries for articles of any one word search straight to your email",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open"
+  },
+  "permissions": [
+    "scripting"
+  ]
+}
