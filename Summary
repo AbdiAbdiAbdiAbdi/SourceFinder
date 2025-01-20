@@ -1,0 +1,6 @@
+This is a Chrome Extension that utilizes the following tools, Groq AI, Flask, ReactJS, SMTP, and GNews. In order to use this you must download the files and upload them into the Chrome Extension developer mode. 
+When loaded you will be met with two text boxs and a submit button built using ReactJS's JSX. The top text box is for Searching, PLEASE KEEP WITHIN ONE WORD SEARCHS AS THE NEWS API CAN'T RUN ON MORE THAN ONE WORD. Follow this link to
+learn the proper syntax: https://gnews.io/docs/v4#query-syntax
+After finding what you want to search for, type in the email address you'd wish to receive the text from. It's not case senstive but you must include the @ after.
+When you've finished with the text boxes, click the submit button to send the two inputs over to the backend built using Flask, where the backend proceeds to send an email with 10 articles relevant to the search made.
+Each article you'll recieve will have the Title, an AI Powered synopsis of the article, and the link to where the article was pulled from, if you want to read more about the article.
